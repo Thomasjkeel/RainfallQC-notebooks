@@ -1,0 +1,12 @@
+python>3.9
+polars
+pandas
+xarray
+dask
+netCDF4
+bottleneck
+scipy
+matplotlib
+altair
+
+## if you want to try a different homogeneity trest install 'pyhomogeneity'
