@@ -8,5 +8,3 @@ bottleneck
 scipy
 matplotlib
 altair
-
-## if you want to try a different homogeneity trest install 'pyhomogeneity'
