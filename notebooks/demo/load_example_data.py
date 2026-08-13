@@ -11,6 +11,7 @@ def load_local_GSDR_data(gauge_id):
     GSDR_data = pl.read_csv(
         data_path,
         skip_rows=20,
+        new_columns=[target_gauge_col],
         schema_overrides={target_gauge_col: pl.Float64},
     )
 
